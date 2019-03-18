@@ -1,0 +1,142 @@
+body {
+    background: #edf0fA;
+    padding: 20px;
+  
+  }
+
+header{
+    width: 100%;
+    height: 70px;
+    
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: #25b99a;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.15);
+
+    padding: 5px;
+
+
+}
+
+header input{
+    width: 75%;
+    margin: auto;
+    height: 50px;
+  
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    border: 0px;
+  text-indent: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: none;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0 60px 0 0;
+
+  color: #fff;
+ 
+
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    
+
+}
+
+header input::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.75)
+}
+header button{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 33px;
+    right: 110px;
+    z-index: 2;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 25px;
+    background: #fff;
+    border: 0px;
+    box-shadow: none;
+    outline: none;
+    
+}
+
+button span{
+    font-size: 45px;
+    align-content: center;
+    color: #25b99a;
+}
+.alire li{
+  width: 100%;
+  min-height: 50px;
+  float: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+  line-height: 22px;
+  background: #fff;
+  border-radius: 5px;
+  font-size: x-large;
+  padding: 10px;
+  list-style: none;
+  margin-top: 10px;
+  display: block;
+  
+}
+ul{
+    float: left;
+}
+
+.title{
+    text-align: center;
+    display: block;
+}
+li i{
+    float: right;
+    margin: 10px;
+}
+li i:hover{
+    animation-name: example;
+    animation-duration: 4s;
+    cursor: pointer;
+  
+}
+@keyframes example {
+
+    0%   {  transform: rotate(20deg); }
+  100% {  transform: rotate(20deg); }
+   
+}
+.lu li{
+    width: 100%;
+    min-height: 50px;
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+    line-height: 22px;
+    background: #fff;
+    border-radius: 5px;
+    font-size: x-large;
+    padding: 10px;
+    list-style: none;
+    margin-top: 10px;
+    display: block;
+
+}
+
+
+
+
+  
